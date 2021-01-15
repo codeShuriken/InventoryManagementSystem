@@ -1,0 +1,172 @@
+.html {
+  height: 100%;
+}
+.App {
+  display: flex;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.App .appHeader {
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color: rgb(35, 55, 88);
+  text-align: right;
+  padding: 10px;
+  color: white;
+  min-width: 85vw;
+}
+
+.App .appContent {
+  display: flex;
+  flex-direction: column;
+}
+.navig {
+  min-width: 30vw;
+}
+.appContent .routeContent {
+  min-width: 80vw;
+}
+
+a.nav-link:after {
+  content: "";
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: white;
+  transition: 300ms;
+}
+
+a.nav-link:hover:after {
+  width: 100%;
+}
+.nav-item {
+  font-size: 1.4em;
+}
+.nav-item .active .nav-link:after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  display: block;
+  background: white;
+  transition: 300ms;
+}
+
+.wrapper {
+  word-wrap: break-word;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.popupButtonStyle {
+  float: left;
+  min-width: 160px;
+  max-width: 180px;
+}
+
+.tableStyleCustom {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: auto;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.tableStyleCustom .tableHead {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: bold;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.2em;
+  min-height: 40px;
+  align-items: center;
+  background-color: rgb(35, 55, 88);
+  border-top: 1px solid rgb(35, 55, 88);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.tableStyleCustom .resultWrapper {
+  min-height: 0px;
+  max-height: 70vh;
+  overflow: auto;
+}
+.tableStyleCustom .tableItemStyleCustom {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-items: center;
+  min-height: 40px;
+  color: #808080;
+}
+
+.tableStyleCustom .tableItemStyleCustom .customWidth,
+.tableHead .customWidth {
+  padding-left: 6px;
+  width: 50%;
+}
+.tableStyleCustom.products {
+  width: 100% !important;
+}
+
+.products .customWidthDesc {
+  padding-left: 6px;
+  width: 50%;
+}
+
+.tableStyleCustom .tableItemStyleCustom:nth-child(even) {
+  background-color: rgba(35, 55, 88, 0.22);
+}
+
+.dropdown-menu.show {
+  transform: unset !important;
+}
+.dashboardWrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.dashboardWrapper .graph {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.activeSupplyOrders {
+  display: flex;
+  flex-direction: column;
+}
+.activeSupplyOrders .title {
+  text-align: center;
+  color: #333333;
+  font-size: 18px;
+  fill: #333333;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.dashBoardSupplyLog {
+  border-left: 5px solid salmon !important;
+}
+
+.noData {
+  color: gainsboro;
+  text-align: center;
+  font-size: 30px;
+}
+
+.centerAlign {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.supplyOrderWrapperDashBoard {
+  overflow: auto;
+  padding-right: 5px;
+}
