@@ -11,5 +11,5 @@ To run front-end part:
 To run the backend:
 1. Put in password of your Postgres database server in the application.proprties file.
 2. Run command from the project folder (InventoryManagementSystem/backend/spring-postgre-inventory/spring-postgre-inventory)
- "./mnvw clean package".
+ "./mvnw clean package".
 3. Then run the command "java -jar ./target/spring-postgre-inventory-0.0.1-SNAPSHOT.jar".
