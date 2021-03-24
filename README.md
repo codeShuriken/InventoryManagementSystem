@@ -1,13 +1,13 @@
 # InventoryManagementSystem
 Designed and Developed an inventory management system that is capable of capturing product inventories and tracking incoming orders from customers.
 
-#Front end
+# Front end
 To run front-end part:      
 1. Run the command "npm install".     
 2. Then run the command "npm start".
 3. The app will be running in the port "localhost:3000".
  
-#Back end
+# Back end
 To run the backend:
 1. Put in password of your Postgres database server in the application.proprties file.
 2. Run command from the project folder (InventoryManagementSystem/backend/spring-postgre-inventory/spring-postgre-inventory)
